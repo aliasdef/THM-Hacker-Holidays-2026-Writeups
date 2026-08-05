@@ -1,4 +1,4 @@
-# 🏝️ TryHackMe — Hacker Holidays 2026: Full Walkthroughs (Days 1–8)
+# 🏝️ TryHackMe - Hacker Holidays 2026: Full Walkthroughs (Days 1–8)
 
 Welcome to my repository containing technical notes, exploit steps, and detailed writeups for the **TryHackMe Hacker Holidays 2026** event. 
 
