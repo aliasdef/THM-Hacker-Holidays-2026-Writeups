@@ -1,5 +1,5 @@
 
-# TryHackMe — Hacker Holidays 2026: Day 1
+# TryHackMe - Hacker Holidays 2026: Day 1
 
 ## Challenge Information
 * **Name:** The Concierge Knows Too Much
