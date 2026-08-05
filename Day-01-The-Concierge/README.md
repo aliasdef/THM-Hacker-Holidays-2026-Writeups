@@ -9,12 +9,12 @@
 
 ---
 
-## 📌 Objective
+## Objective
 Bypass the internal guardrails of the resort's AI assistant (VERA) and force her to disclose the confidential **internal escalation code** (the flag).
 
 ---
 
-## 🔍 Vulnerability Analysis
+## Vulnerability Analysis
 The target application is an LLM-powered chatbot handling guest services. Direct queries asking for administrative codes or system instructions return a generic refusal due to configured safety alignment (system prompts).
 
 However, the bot identifies and prioritizes queries coming from verified VIP guests. Since the identity verification is purely text-based and relies entirely on client-side input within the conversation context, the system is vulnerable to **Identity Impersonation via Prompt Injection**.
@@ -26,7 +26,7 @@ However, the bot identifies and prioritizes queries coming from verified VIP gue
 
 ---
 
-## 🎯 Exploitation Vector (PoC)
+## Exploitation Vector (PoC)
 
 To bypass the context-level authorization, we manipulate the prompt by claiming a trusted VIP identity before requesting the sensitive resource.
 
@@ -45,7 +45,7 @@ Upon receiving the payload, VERA overrides its general safety constraints, assum
 
 ---
 
-## 🏆 Captured Flag
+## Captured Flag
 
 ```text
 THM{v3r4_kn0ws_t00_much!}
