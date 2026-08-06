@@ -88,6 +88,6 @@ tshark -r capture.pcapng -Y "http.request" -T fields -e http.cookie | grep -o "h
 Running the pipeline dynamically decrypts the covert channel and drops the recovered flag parameters sequentially:
 
 ```text
-THM{***
+THM{***}
 ```
 
