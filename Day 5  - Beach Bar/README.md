@@ -94,10 +94,3 @@ cat root.txt
 ```text
 THM{***}
 ```
-
----
-
-## 5. Remediation Strategies
-* **Implement Safe Deserialization:** Never use `yaml.load()` on untrusted input data. Always restrict YAML compilation handlers to the secure parsing structure `yaml.safe_load()`.
-* **Sanitize Process Arguments:** Avoid passing sensitive tokens, private keys, or system passwords as plain text arguments within active shell execution flags. Store sensitive operational parameters in secure, restricted environment variables or fetch them dynamically from encrypted storage layers.
-* **Enforce Password Isolation:** Ban password reuse policies across internal environments. Administrative root identities must maintain isolated, unique, and long-entropy passwords completely un-linked from application-level execution variables.
