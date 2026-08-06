@@ -1,5 +1,5 @@
 
-# [Writeup] TryHackMe - Hacker Holidays 2026: Day 3 — Complimentary
+# [Writeup] TryHackMe - Hacker Holidays 2026: Day 3 - Complimentary
 
 **Category:** Cloud Security / AWS Misconfiguration
 **Difficulty:** Medium
