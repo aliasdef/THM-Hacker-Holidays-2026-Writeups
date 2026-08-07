@@ -6,7 +6,7 @@ Difficulty: Medium
 
 Keywords: AWS Cognito, Identity Pool, STS, DynamoDB, Access Control Bypass
 Introduction & Objectives
-
+# Objective
 The Byte Lotus wellness platform provides guests with immediate, frictionless access to personalized profiles without requiring a traditional login screen. But behind the beautiful web interfaces lies a complex cloud infrastructure. A misplaced configuration file or an unauthenticated cloud asset can give a guest complete access to data they were never meant to see.
 
 The objective of Day 3 is to shift our focus from traditional web server exploitation to Cloud Infrastructure Security (AWS). We need to analyze front-end configuration elements, interact with AWS Cognito to obtain unauthenticated temporary credentials, and exploit an over-privileged IAM role to extract hidden records from a DynamoDB table.
