@@ -13,7 +13,7 @@ This repository documents my journey of compromising the infrastructure of the f
 | **01** | **The Concierge Knows Too Much** | AI Security | Easy | Identity Impersonation & Prompt Injection | 🟢 Solved | [View](https://github.com/aliasdef/THM-Hacker-Holidays-2026-Writeups/tree/main/Day-01-The-Concierge) |
 | **02** | **Room 404** | Web Exploitation | Easy | Exposed Git Repository (`/.git/` source disclosure) | 🟢 Solved | [View](https://github.com/aliasdef/THM-Hacker-Holidays-2026-Writeups/tree/main/Day-02-Room-404) |
 | **03** | **Complimentary** | Cloud Security | Medium | AWS IAM Over-privileged Guest Access & DB Dump | 🟢 Solved | [View](https://github.com/aliasdef/THM-Hacker-Holidays-2026-Writeups/blob/main/Day%203%20-%20Complimentary/README.md) |
-| **04** | **Packed Light** | Network Forensics | Medium | Covert Channel & Reassembling XOR-encoded Cookies | 🟢 Solved | [View](./Day-04-Packed-Light/) |
+| **04** | **Packed Light** | Network Forensics | Medium | Covert Channel & Reassembling XOR-encoded Cookies | 🟢 Solved | [View](https://github.com/aliasdef/THM-Hacker-Holidays-2026-Writeups/tree/main/Day%204%20-%20Packed-Light) |
 | **05** | **Beach Bar** | Boot2Root | Easy | Jukebox Input Arbitrary Command Injection & RCE | 🟢 Solved | [View](./Day-05-Beach-Bar/) |
 | **06** | **Overheard at Breakfast** | OSINT | Easy | Email Hashing Reconnaissance via Gravatar Profiles | 🟢 Solved | [View](./Day-06-Overheard/) |
 | **07** | **Do Not Disturb** | Boot2Root / Web | Medium | NoSQLi Auth Bypass ➡️ EJS SSTI ➡️ Disk Group Abuse | 🟢 Solved | [View](./Day-07-Do-Not-Disturb/) |
