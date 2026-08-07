@@ -2,7 +2,9 @@
 # [Writeup] TryHackMe - Hacker Holidays 2026: Day 5 - Beach Bar
 
 **Category:** Boot2Root / Web Exploitation / Privilege Escalation
+
 **Difficulty:** Easy
+
 **Keywords:** PyYAML, Insecure Deserialization, Remote Code Execution (RCE), Process Sniffing, Command Line Leakage, Password Reuse, PrivEsc
 
 ---
