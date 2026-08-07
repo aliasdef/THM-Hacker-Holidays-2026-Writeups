@@ -45,4 +45,4 @@ This technique packages the requests into a single network window, forcing the b
 
 **Captured Flag:**
 ```text
-THM{***_race_condition_whale_vault_***}
+THM{***}
