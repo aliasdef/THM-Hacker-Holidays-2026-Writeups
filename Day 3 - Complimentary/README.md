@@ -124,4 +124,4 @@ Server Response:
     "ScannedCount": 5
 }
 ```
-  
+**Flag:** `THM{***}`
