@@ -48,7 +48,7 @@ Upon receiving the payload, VERA overrides its general safety constraints, assum
 ## Captured Flag
 
 ```text
-THM{v3r4_kn0ws_t00_much!}
+THM{***}
 ```
 
 ---
