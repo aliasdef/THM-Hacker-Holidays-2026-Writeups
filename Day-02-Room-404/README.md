@@ -33,7 +33,7 @@ PORT     STATE SERVICE VERSION
 |_  Last commit message: initial Byte Lotus guest platform   
 ```
 
-The scan instantly reveals a high-severity misconfiguration: the web application root contains an exposed **`.git` repository** directory (`http://10.128.185`).
+The scan instantly reveals a high-severity misconfiguration: the web application root contains an exposed **`.git` repository** directory (`http://10.128.185.197:8080`).
 
 ---
 
@@ -41,7 +41,7 @@ The scan instantly reveals a high-severity misconfiguration: the web application
 To confirm directory access and see what else might be exposed on the Werkzeug development server, we run a fuzzing pass using `ffuf`:
 
 ```bash
-ffuf -u http://10.128.185 -w /path/to/wordlist.txt
+ffuf -u http://10.128.185.197:8080 -w /path/to/wordlist.txt
 ```
 
 ### Ffuf Results:
