@@ -33,7 +33,7 @@ The application runs a web service on port 5000 powered by the Python Werkzeug/F
 
 **Step 2: Source Code Review & Authentication Bypass**
 
-When we navigate to http://<TARGET_IP>:5000, we are blocked by an administrative login page. Without valid credentials, we proceed with a foundational black-box web testing methodology: auditing the front-end source code (Inspect Element / View Page Source / Ctrl+U).
+When we navigate to `http://<TARGET_IP>:5000`, we are blocked by an administrative login page. Without valid credentials, we proceed with a foundational black-box web testing methodology: auditing the front-end source code (Inspect Element / View Page Source / Ctrl+U).
 
 Deep within the HTML comments left behind by a rushed developer, we discover hardcoded sensitive configuration data:
 
